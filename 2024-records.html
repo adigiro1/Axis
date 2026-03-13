@@ -1,0 +1,2501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Digger Cup: 2024 Records</title>
+
+    <link href="photos/favicon.ico" rel="icon">
+    <link href="photos/favicon.ico" rel="apple-touch-icon">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        .accordion-button {
+            background-color: #f2f2f2 !important;
+            color: #000 !important;
+        }
+
+            .accordion-button:not(.collapsed) {
+                background-color: #e6e6e6 !important;
+                color: #000 !important;
+            }
+
+            .accordion-button:focus {
+                box-shadow: none !important;
+            }
+
+        /* Highlight colors for matchups */
+        .match-blue .accordion-button {
+            background-color: #e7f1ff !important;
+            border-left: 6px solid #007BFF;
+        }
+
+        .match-red .accordion-button {
+            background-color: #ffe7e7 !important;
+            border-left: 6px solid #C40000;
+        }
+
+        /* Extend highlight color to scorecard "Hole" row */
+        .match-blue .scorecard-table th.hole-header,
+        .match-blue .scorecard-table td.hole-header {
+            background-color: #e7f1ff !important;
+        }
+
+        .match-red .scorecard-table th.hole-header,
+        .match-red .scorecard-table td.hole-header {
+            background-color: #ffe7e7 !important;
+        }
+
+        /* Scorecard table styling */
+        .scorecard-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 14px;
+        }
+
+            .scorecard-table th,
+            .scorecard-table td {
+                border: 1px solid #ccc;
+                padding: 6px;
+            }
+
+        .winner-red {
+            background-color: #ffcccc;
+            font-weight: bold;
+        }
+
+        .winner-blue {
+            background-color: #cce0ff;
+            font-weight: bold;
+        }
+
+        .standings-row td {
+            font-weight: bold;
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+
+<body class="starter-page-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="Digger-Cup.html" class="logo d-flex align-items-center">
+                <img src="photos/digi cup_engravesd_est 2024-1.jpg">
+                <h1 class="sitename">Digger Cup</h1>
+                <img src="photos/digi cup_engravesd_est 2024-1.jpg">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="Digger-Cup.html">Home</a></li>
+                    <li><a href="Rules.html">Rules</a></li>
+                    <li><a href="Champions Circle.html">Champions Circle</a></li>
+                    <li class="dropdown">
+                        <a href="Historical Records.html" class="active">
+                            <span>Historical Records</span>
+                            <i class="bi bi-chevron-down dropdown-indicator"></i>
+                        </a>
+                        <ul>
+                            <li><a href="2025-records.html">2025 Records</a></li>
+                            <li><a href="2024-records.html">2024 Records</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Teams by Year.html">Teams by Year</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="page-title">
+            <div class="title-wrapper">
+                <h1>2024 Records</h1>
+            </div>
+        </div>
+
+        <!-- ========================= -->
+        <!-- 2024 Points Summary -->
+        <!-- ========================= -->
+        <div class="container my-4">
+            <table class="table table-bordered text-center align-middle" style="font-size: 1.25rem; font-weight:600;">
+                <tr>
+                    <td style="background:#ffe7e7; border:2px solid #C40000;">
+                        <div style="font-size:1.4rem; font-weight:700;">
+                            <a href="Teams%20By%20Year.html#red2024"
+                               style="color:inherit; text-decoration:none; cursor:pointer;">
+                                Red Team
+                            </a>
+                        </div>
+                        <div style="font-size:2rem; font-weight:800; margin-top:4px;">8.5</div>
+                        <div style="font-size:1rem; font-weight:500;">points</div>
+                    </td>
+                    <td style="background:#e7f1ff; border:2px solid #007BFF;">
+                        <div style="font-size:1.4rem; font-weight:700;">
+                            <a href="Teams%20By%20Year.html#blue2024"
+                               style="color:inherit; text-decoration:none; cursor:pointer;">
+                                Blue Team
+                            </a>
+                        </div>
+                        <div style="font-size:2rem; font-weight:800; margin-top:4px;">3.5</div>
+                        <div style="font-size:1rem; font-weight:500;">points</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background:#f2f2f2; border:2px solid #ccc; font-size:1.3rem; font-weight:700;">
+                        6.5 points needed to win outright
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <section class="container my-5">
+            <h3 class="mb-4" style="font-weight:700;">Head to Head Matchups</h3>
+
+            <div class="accordion" id="matchups2024">
+                <!-- 1 — BLUE -->
+                <div class="accordion-item my-2 match-blue">
+                    <h2 class="accordion-header" id="match1">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch1">
+                            Alex D. (HCP:2) vs Alex G. (HCP:0) — 2&1 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+                    <div id="collapseMatch1" class="accordion-collapse collapse"
+                         data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alex D.</th>
+                                        <td class="winner-red">5</td>
+                                        <td>5</td>
+                                        <td class="winner-red">6</td>
+                                        <td class="winner-red">5</td>
+                                        <td>5</td>
+                                        <td>7</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td class="winner-red">5</td>
+                                        <td>49</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alex G.</th>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td>9</td>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td>50</td>
+                                    </tr>
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alex D.</th>
+                                        <td>8</td>
+                                        <td class="winner-red">4</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td>3</td>
+                                        <td>-</td>
+                                        <td>40</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Alex G.</th>
+                                        <td>8</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>3</td>
+                                        <td>-</td>
+                                        <td>36</td>
+                                    </tr>
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>2&1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 — RED -->
+                <div class="accordion-item my-2 match-red">
+                    <h2 class="accordion-header" id="match2">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch2">
+                            Alex H. (HCP:6) vs Aaron D. (HCP:0) — 4&3 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+                    <div id="collapseMatch2" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Alex H.</th>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Aaron D.</th>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Alex H.</th>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td class="winner-red"></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Aaron D.</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>4UP</td>
+                                        <td>4UP</td>
+                                        <td>4&3</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 3 — RED -->
+                <div class="accordion-item my-2 match-red">
+                    <h2 class="accordion-header" id="match3">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch3">
+                            Keith J. (HCP:0) vs Digger (HCP:0) — 2&1 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+                    <div id="collapseMatch3" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Keith J.</th>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td class="winner-red"></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Digger</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Keith J.</th>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td class="winner-red"></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Digger</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td class="winner-blue"></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>2&1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- 4 — RED -->
+                <div class="accordion-item my-2 match-red">
+                    <h2 class="accordion-header" id="match4">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch4">
+                            Dan B. (HCP:0) vs Amer M. (HCP:4) — 5&4 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+
+                    <div id="collapseMatch4" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Dan B.</th>
+                                        <td>6</td>
+                                        <td class="winner-red">5</td>
+                                        <td class="winner-red">5</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td class="winner-red">5</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td class="winner-red">7</td>
+                                        <td>49</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Amer M.</th>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td>8</td>
+                                        <td>51</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1DN</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Dan B.</th>
+                                        <td class="winner-red">7</td>
+                                        <td>7</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">4</td>
+                                        <td>5</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>22</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Amer M.</th>
+                                        <td>9</td>
+                                        <td>7</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>26</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>4UP</td>
+                                        <td>5UP</td>
+                                        <td>5&4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- 5 — BLUE -->
+                <div class="accordion-item my-2 match-blue">
+                    <h2 class="accordion-header" id="match5">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch5">
+                            Ben A. (HCP:1) vs Cody K. (HCP:0) — 3&1 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+
+                    <div id="collapseMatch5" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Ben A.</th>
+                                        <td>7</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">4</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td class="winner-red">3</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>45</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Cody K.</th>
+                                        <td class="winner-blue">5</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td class="winner-blue">5</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>4</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td>42</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Ben A.</th>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td class="winner-red">3</td>
+                                        <td class="winner-red">5</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>7</td>
+                                        <td></td>
+                                        <td>41</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Cody K.</th>
+                                        <td class="winner-blue">5</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td class="winner-blue">3</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">6</td>
+                                        <td></td>
+                                        <td>42</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>2UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>2UP</td>
+                                        <td>3&1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 6 — BLUE -->
+                <div class="accordion-item my-2 match-blue">
+                    <h2 class="accordion-header" id="match6">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch6">
+                            Casey E. (HCP:0) vs Tyler Har. (HCP:0) — 1UP FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+
+                    <div id="collapseMatch6" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Casey E.</th>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>39</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Tyler Har.</th>
+                                        <td>5</td>
+                                        <td class="winner-red">4</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td class="winner-red">2</td>
+                                        <td class="winner-red">4</td>
+                                        <td>6</td>
+                                        <td>40</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Casey E.</th>
+                                        <td>5</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">4</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>3</td>
+                                        <td>6</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>41</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Tyler Har.</th>
+                                        <td class="winner-red">4</td>
+                                        <td>5</td>
+                                        <td class="winner-red">4</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td>3</td>
+                                        <td class="winner-red">5</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>40</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 7 — RED-->
+                <div class="accordion-item my-2 match-red">
+                    <h2 class="accordion-header" id="match7">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch7">
+                            Matt S. (HCP:0) vs Craig B. (HCP:0) — 3&1 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+
+                    <div id="collapseMatch7" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Matt S.</th>
+                                        <td class="winner-blue">6</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">6</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">6</td>
+                                        <td>8</td>
+                                        <td>47</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Craig B.</th>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td class="winner-red">3</td>
+                                        <td>7</td>
+                                        <td>7</td>
+                                        <td class="winner-red">3</td>
+                                        <td>7</td>
+                                        <td class="winner-red">5</td>
+                                        <td>51</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>2UP</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Matt S.</th>
+                                        <td>5</td>
+                                        <td>10</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>5</td>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td></td>
+                                        <td>49</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Craig B.</th>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">5</td>
+                                        <td>6</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">6</td>
+                                        <td>6</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">3</td>
+                                        <td></td>
+                                        <td>38</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3&1</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 8 — BLUE -->
+                <div class="accordion-item my-2 match-red">
+                    <h2 class="accordion-header" id="match8">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMatch8">
+                            Mike K. (HCP:0) vs Elliot L. (HCP:0) — 4&2 FINAL
+                            <i class="bi bi-chevron-down ms-2"></i>
+                        </button>
+                    </h2>
+
+                    <div id="collapseMatch8" class="accordion-collapse collapse" data-bs-parent="#matchups2024">
+                        <div class="accordion-body">
+                            <div class="mt-3">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Mike K.</th>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td class="winner-red">5</td>
+                                        <td>-</td>
+                                        <td>6</td>
+                                        <td class="winner-red">5</td>
+                                        <td>4</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">5</td>
+                                        <td>40</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Elliot L.</th>
+                                        <td class="winner-blue">5</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">3</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td>45</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Mike K.</th>
+                                        <td class="winner-red">5</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">4</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td>4</td>
+                                        <td class="winner-red">4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>31</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Elliot L.</th>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>35</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>3UP</td>
+                                        <td>4&2</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- ========================= -->
+                <!-- Foursomes (Alternate Shot) – 2024 -->
+                <!-- ========================= -->
+
+                <section class="container my-3">
+                    <h3 class="mb-4" style="font-weight:700;">Foursomes (Alternate Shot)</h3>
+
+                    <!-- NOTE: id uses "-accordion" so it is NOT targeted by any DataTables init -->
+                    <div class="accordion" id="foursomes2024-accordion">
+
+                        <!-- Match 1 -->
+                        <div class="accordion-item my-2 match-red">
+                            <h2 class="accordion-header" id="foursomes1-header">
+                                <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#foursomes1-collapse">
+                                    Dan B. / Ben A. (HCP:0) vs Casey E. / Cody K. (HCP:0) — 3&1 FINAL
+                                    <i class="bi bi-chevron-down ms-2"></i>
+                                </button>
+                            </h2>
+                            <div id="foursomes1-collapse" class="accordion-collapse collapse"
+                                 data-bs-parent="#foursomes2024-accordion">
+                                <div class="accordion-body">
+                                    <!-- FRONT 9 -->
+                                    <h5><strong>Front Nine</strong></h5>
+                                    <table class="scorecard-table mb-4">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">1</td>
+                                            <td class="hole-header">2</td>
+                                            <td class="hole-header">3</td>
+                                            <td class="hole-header">4</td>
+                                            <td class="hole-header">5</td>
+                                            <td class="hole-header">6</td>
+                                            <td class="hole-header">7</td>
+                                            <td class="hole-header">8</td>
+                                            <td class="hole-header">9</td>
+                                            <td class="hole-header">Out</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Dan B. / Ben A.</th>
+                                            <td class="winner-red">5</td>
+                                            <td class="winner-red">5</td>
+                                            <td>5</td>
+                                            <td class="winner-red">4</td>
+                                            <td class="winner-red">4</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td class="winner-red">4</td>
+                                            <td>5</td>
+                                            <td>41</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Casey E. / Cody K.</th>
+                                            <td>6</td>
+                                            <td>6</td>
+                                            <td class="winner-blue">4</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td class="winner-blue">4</td>
+                                            <td class="winner-blue">3</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td>43</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>3UP</td>
+                                            <td>2UP</td>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>2UP</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- BACK 9 -->
+                                    <h5><strong>Back Nine</strong></h5>
+                                    <table class="scorecard-table">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">10</td>
+                                            <td class="hole-header">11</td>
+                                            <td class="hole-header">12</td>
+                                            <td class="hole-header">13</td>
+                                            <td class="hole-header">14</td>
+                                            <td class="hole-header">15</td>
+                                            <td class="hole-header">16</td>
+                                            <td class="hole-header">17</td>
+                                            <td class="hole-header">18</td>
+                                            <td class="hole-header">In</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Dan B. / Ben A.</th>
+                                            <td>6</td>
+                                            <td>4</td>
+                                            <td>6</td>
+                                            <td class="winner-red">3</td>
+                                            <td>5</td>
+                                            <td class="winner-red">3</td>
+                                            <td>6</td>
+                                            <td class="winner-red">4</td>
+                                            <td></td>
+                                            <td>37</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Casey E. / Cody K.</th>
+                                            <td class="winner-blue">5</td>
+                                            <td>4</td>
+                                            <td class="winner-blue">5</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td>6</td>
+                                            <td>5</td>
+                                            <td></td>
+                                            <td>38</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>AS</td>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>2UP</td>
+                                            <td>3&1</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Match 2 -->
+                    <div class="accordion-item my-2">
+                        <h2 class="accordion-header" id="foursomes2-header">
+                            <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#foursomes2-collapse">
+                                Mike K. / Tyler Har. (HCP:0) vs Matt S. / Elliot L. (HCP:4) — AS FINAL
+                                <i class="bi bi-chevron-down ms-2"></i>
+                            </button>
+                        </h2>
+
+                        <div id="foursomes2-collapse" class="accordion-collapse collapse"
+                             data-bs-parent="#foursomes2024-accordion">
+                            <div class="accordion-body">
+
+                                <!-- FRONT 9 -->
+                                <h5><strong>Front Nine</strong></h5>
+                                <table class="scorecard-table mb-4">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">1</td>
+                                        <td class="hole-header">2</td>
+                                        <td class="hole-header">3</td>
+                                        <td class="hole-header">4</td>
+                                        <td class="hole-header">5</td>
+                                        <td class="hole-header">6</td>
+                                        <td class="hole-header">7</td>
+                                        <td class="hole-header">8</td>
+                                        <td class="hole-header">9</td>
+                                        <td class="hole-header">Out</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Mike K. / Tyler Har.</th>
+                                        <td class="winner-red">4</td>
+                                        <td>4</td>
+                                        <td class="winner-red">7</td>
+                                        <td class="winner-red">4</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td class="winner-red">5</td>
+                                        <td>43</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Matt S. / Elliot L.</th>
+                                        <td>5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td>-</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">4</td>
+                                        <td>7</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                                <!-- BACK 9 -->
+                                <h5><strong>Back Nine</strong></h5>
+                                <table class="scorecard-table">
+                                    <tr>
+                                        <th class="hole-header">Hole</th>
+                                        <td class="hole-header">10</td>
+                                        <td class="hole-header">11</td>
+                                        <td class="hole-header">12</td>
+                                        <td class="hole-header">13</td>
+                                        <td class="hole-header">14</td>
+                                        <td class="hole-header">15</td>
+                                        <td class="hole-header">16</td>
+                                        <td class="hole-header">17</td>
+                                        <td class="hole-header">18</td>
+                                        <td class="hole-header">In</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Par</th>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>3</td>
+                                        <td>5</td>
+                                        <td>36</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Mike K. / Tyler Har.</th>
+                                        <td>5</td>
+                                        <td class="winner-red">5</td>
+                                        <td class="winner-red">4</td>
+                                        <td class="winner-red">4</td>
+                                        <td>7</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td class="winner-red">3</td>
+                                        <td>6</td>
+                                        <td>44</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Matt S. / Elliot L.</th>
+                                        <td class="winner-blue">4</td>
+                                        <td>6</td>
+                                        <td>5</td>
+                                        <td>6</td>
+                                        <td class="winner-blue">5</td>
+                                        <td class="winner-blue">3</td>
+                                        <td class="winner-blue">5</td>
+                                        <td>4</td>
+                                        <td>6</td>
+                                        <td>44</td>
+                                    </tr>
+
+                                    <tr class="standings-row">
+                                        <th>Standings</th>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>2UP</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>1UP</td>
+                                        <td>AS</td>
+                                        <td>AS</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </section>
+
+                <!-- ========================= -->
+                <!-- Four Ball – 2024 -->
+                <!-- ========================= -->
+
+                <section class="container my-3">
+                    <h3 class="mb-4" style="font-weight:700;">Four Ball</h3>
+
+                    <!-- Again, "-accordion" so DataTables never touches this -->
+                    <div class="accordion" id="fourball2024-accordion">
+
+                        <!-- Four Ball Match 1 -->
+                        <div class="accordion-item my-2 match-red">
+                            <h2 class="accordion-header" id="fourball1-header">
+                                <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#fourball1-collapse">
+                                    Alex H. / Keith J. vs Amer M. / Aaron D. — 1UP FINAL
+                                    <i class="bi bi-chevron-down ms-2"></i>
+                                </button>
+                            </h2>
+
+                            <div id="fourball1-collapse" class="accordion-collapse collapse"
+                                 data-bs-parent="#fourball2024-accordion">
+                                <div class="accordion-body">
+
+                                    <!-- FRONT 9 -->
+                                    <h5><strong>Front Nine</strong></h5>
+                                    <table class="scorecard-table mb-4">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">1</td>
+                                            <td class="hole-header">2</td>
+                                            <td class="hole-header">3</td>
+                                            <td class="hole-header">4</td>
+                                            <td class="hole-header">5</td>
+                                            <td class="hole-header">6</td>
+                                            <td class="hole-header">7</td>
+                                            <td class="hole-header">8</td>
+                                            <td class="hole-header">9</td>
+                                            <td class="hole-header">Out</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex H. / Keith J.</th>
+                                            <td class="winner-red">5</td>
+                                            <td class="winner-red">4</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td class="winner-red">4</td>
+                                            <td>5</td>
+                                            <td class="winner-red">3</td>
+                                            <td>5</td>
+                                            <td>7</td>
+                                            <td>42</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Amer M. / Aaron D.</th>
+                                            <td>6</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td>6</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td class="winner-blue">5</td>
+                                            <td>46</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>2UP</td>
+                                            <td>2UP</td>
+                                            <td>3UP</td>
+                                            <td>3UP</td>
+                                            <td>4UP</td>
+                                            <td>4UP</td>
+                                            <td>3UP</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- BACK 9 -->
+                                    <h5><strong>Back Nine</strong></h5>
+                                    <table class="scorecard-table">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">10</td>
+                                            <td class="hole-header">11</td>
+                                            <td class="hole-header">12</td>
+                                            <td class="hole-header">13</td>
+                                            <td class="hole-header">14</td>
+                                            <td class="hole-header">15</td>
+                                            <td class="hole-header">16</td>
+                                            <td class="hole-header">17</td>
+                                            <td class="hole-header">18</td>
+                                            <td class="hole-header">In</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex H. / Keith J.</th>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td class="winner-red">4</td>
+                                            <td class="winner-red">5</td>
+                                            <td>3</td>
+                                            <td>6</td>
+                                            <td>4</td>
+                                            <td></td>
+                                            <td>38</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Amer M. / Aaron D.</th>
+                                            <td>5</td>
+                                            <td class="winner-blue">4</td>
+                                            <td class="winner-blue">5</td>
+                                            <td>5</td>
+                                            <td>7</td>
+                                            <td>3</td>
+                                            <td class="winner-blue">5</td>
+                                            <td>4</td>
+                                            <td></td>
+                                            <td>38</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>3UP</td>
+                                            <td>2UP</td>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>3UP</td>
+                                            <td>3UP</td>
+                                            <td>2UP</td>
+                                            <td>2&1</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Match 2 -->
+                        <div class="accordion-item my-2 match-red">
+                            <h2 class="accordion-header" id="fourball2-header">
+                                <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#fourball2-collapse">
+                                    Alex D. / Craig B. vs Alex G. / Digger — 3&2 Final
+                                    <i class="bi bi-chevron-down ms-2"></i>
+                                </button>
+                            </h2>
+
+                            <div id="fourball2-collapse" class="accordion-collapse collapse"
+                                 data-bs-parent="#fourball2024-accordion">
+                                <div class="accordion-body">
+
+                                    <!-- FRONT 9 -->
+                                    <h5><strong>Front Nine</strong></h5>
+                                    <table class="scorecard-table mb-4">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">1</td>
+                                            <td class="hole-header">2</td>
+                                            <td class="hole-header">3</td>
+                                            <td class="hole-header">4</td>
+                                            <td class="hole-header">5</td>
+                                            <td class="hole-header">6</td>
+                                            <td class="hole-header">7</td>
+                                            <td class="hole-header">8</td>
+                                            <td class="hole-header">9</td>
+                                            <td class="hole-header">Out</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex D. / Craig B.</th>
+                                            <td class="winner-red">4</td>
+                                            <td>4</td>
+                                            <td>7</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                            <td class="winner-red">2</td>
+                                            <td class="winner-red">4</td>
+                                            <td>7</td>
+                                            <td>42</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex G. / Digger</th>
+                                            <td>-</td>
+                                            <td>4</td>
+                                            <td class="winner-blue">4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td class="winner-blue">4</td>
+                                            <td>4</td>
+                                            <td>6</td>
+                                            <td class="winner-blue">5</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>AS</td>
+                                            <td>AS</td>
+                                            <td>AS</td>
+                                            <td>1UP</td>
+                                            <td>AS</td>
+                                            <td>1UP</td>
+                                            <td>AS</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- BACK 9 -->
+                                    <h5><strong>Back Nine</strong></h5>
+                                    <table class="scorecard-table">
+                                        <tr>
+                                            <th class="hole-header">Hole</th>
+                                            <td class="hole-header">10</td>
+                                            <td class="hole-header">11</td>
+                                            <td class="hole-header">12</td>
+                                            <td class="hole-header">13</td>
+                                            <td class="hole-header">14</td>
+                                            <td class="hole-header">15</td>
+                                            <td class="hole-header">16</td>
+                                            <td class="hole-header">17</td>
+                                            <td class="hole-header">18</td>
+                                            <td class="hole-header">In</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Par</th>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                            <td>5</td>
+                                            <td>36</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex D. / Craig B.</th>
+                                            <td class="winner-red">7</td>
+                                            <td>-</td>
+                                            <td>6</td>
+                                            <td>5</td>
+                                            <td class="winner-red">6</td>
+                                            <td class="winner-red">3</td>
+                                            <td>5</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>32</td>
+                                        </tr>
+
+                                        <tr>
+                                            <th>Alex G. / Digger</th>
+                                            <td>8</td>
+                                            <td>-</td>
+                                            <td>6</td>
+                                            <td>5</td>
+                                            <td>7</td>
+                                            <td>-</td>
+                                            <td>5</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>31</td>
+                                        </tr>
+
+                                        <tr class="standings-row">
+                                            <th>Standings</th>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>1UP</td>
+                                            <td>2UP</td>
+                                            <td>3UP</td>
+                                            <td>3&2</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <section class="container my-5">
+
+                            <h3 class="mb-4" style="font-weight:700;">2024 Player Records</h3>
+
+                            <div class="accordion" id="records2024">
+
+                                <!-- ========================= -->
+                                <!-- Overall Record – 2024 -->
+                                <!-- ========================= -->
+
+                                <div class="accordion-item my-5">
+                                    <h2 class="accordion-header" id="headingOverall2024">
+                                        <button class="accordion-button collapsed d-flex justify-content-between align-items-center"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOverall2024">
+                                            <span>Overall Record – 2024</span>
+                                            <i class="bi bi-chevron-down ms-2"></i>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOverall2024" class="accordion-collapse collapse"
+                                         data-bs-parent="#records2024">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive">
+
+                                                <table id="overall2024" class="table table-striped table-bordered datatable-2024">
+
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Player</th>
+                                                            <th>Wins</th>
+                                                            <th>Losses</th>
+                                                            <th>Ties</th>
+                                                            <th>Win %</th>
+                                                            <th>Total Matches</th>
+                                                            <th># of Cups Won</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr><td>1</td><td>Aaron D. <span style="color:#007BFF;">&#9873;</span></td><td>0</td><td>2</td><td>0</td><td>0.000</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>2</td><td>Alex D. <span style="color:#C40000;">&#9873;</td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>3</td><td>Alex G. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>4</td><td>Alex H. <span style="color:#C40000;">&#9873;</td><td>2</td><td>0</td><td>0</td><td>1.000</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>5</td><td>Amer M. <span style="color:#007BFF;">&#9873;</span></td><td>0</td><td>2</td><td>0</td><td>0.000</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>6</td><td>Ben A. <span style="color:#C40000;">&#9873;</td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>7</td><td>Casey E. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>8</td><td>Cody K. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>9</td><td>Craig B. <span style="color:#C40000;">&#9873;</td><td>2</td><td>0</td><td>0</td><td>1.000</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>10</td><td>Dan B. <span style="color:#C40000;">&#9873;</td><td>2</td><td>0</td><td>0</td><td>1.000</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>11</td><td>Digger <span style="color:#007BFF;">&#9873;</span></td><td>0</td><td>2</td><td>0</td><td>0.000</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>12</td><td>Elliot L. <span style="color:#007BFF;">&#9873;</span></td><td>0</td><td>1</td><td>1</td><td>0.500</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>13</td><td>Keith J. <span style="color:#C40000;">&#9873;</td><td>2</td><td>0</td><td>0</td><td>1.000</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>14</td><td>Matt S. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>0</td></tr>
+                                                        <tr><td>15</td><td>Mike K. <span style="color:#C40000;">&#9873;</td><td>2</td><td>0</td><td>0</td><td>1.000</td><td>2</td><td>1</td></tr>
+                                                        <tr><td>16</td><td>Tyler Har. <span style="color:#C40000;">&#9873;</td><td>1</td><td>1</td><td>0</td><td>0.500</td><td>2</td><td>1</td></tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ========================= -->
+                                <!-- Singles – 2024 -->
+                                <!-- ========================= -->
+
+                                <div class="accordion-item my-4">
+                                    <h2 class="accordion-header" id="headingSingles2024">
+                                        <button class="accordion-button collapsed d-flex justify-content-between align-items-center"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSingles2024">
+                                            <span>Singles – 2024</span>
+                                            <i class="bi bi-chevron-down ms-2"></i>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseSingles2024" class="accordion-collapse collapse"
+                                         data-bs-parent="#records2024">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive">
+
+                                                <table id="singles2024" class="table table-striped table-bordered datatable-2024">
+
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Player</th>
+                                                            <th>Wins</th>
+                                                            <th>Losses</th>
+                                                            <th>Ties</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr><td>1</td><td>Cody K. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>2</td><td>Keith J. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>3</td><td>Casey E. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>4</td><td>Dan B. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>5</td><td>Craig B. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>6</td><td>Mike K. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>7</td><td>Alex H. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>8</td><td>Alex G. <span style="color:#007BFF;">&#9873;</span></td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>9</td><td>Digger <span style="color:#007BFF;">&#9873;</span></td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>10</td><td>Elliot L. <span style="color:#007BFF;">&#9873;</span></td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>11</td><td>Tyler Har. <span style="color:#C40000;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>12</td><td>Ben A. <span style="color:#C40000;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>13</td><td>Amer M. <span style="color:#007BFF;">&#9873;</span></td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>14</td><td>Matt S. <span style="color:#007BFF;">&#9873;</span></td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>15</td><td>Aaron D. <span style="color:#007BFF;">&#9873;</span></td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>16</td><td>Alex D. <span style="color:#C40000;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ========================= -->
+                                <!-- Foursomes – 2024 -->
+                                <!-- ========================= -->
+
+                                <div class="accordion-item my-4">
+                                    <h2 class="accordion-header" id="headingFoursomes2024">
+                                        <button class="accordion-button collapsed d-flex justify-content-between align-items-center"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFoursomes2024">
+                                            <span>Foursomes – 2024</span>
+                                            <i class="bi bi-chevron-down ms-2"></i>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseFoursomes2024" class="accordion-collapse collapse"
+                                         data-bs-parent="#records2024">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive">
+
+                                                <table id="foursomes2024" class="table table-striped table-bordered datatable-2024">
+
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Player</th>
+                                                            <th>Wins</th>
+                                                            <th>Losses</th>
+                                                            <th>Ties</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr><td>1</td><td>Tyler Har. <span style="color:#C40000;">&#9873;</td><td></td><td></td><td>1</td></tr>
+                                                        <tr><td>2</td><td>Mike K. <span style="color:#C40000;">&#9873;</td><td></td><td></td><td>1</td></tr>
+                                                        <tr><td>3</td><td>Dan B. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>4</td><td>Ben A. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>5</td><td>Matt S. <span style="color:#007BFF;">&#9873;</td><td></td><td></td><td>1</td></tr>
+                                                        <tr><td>6</td><td>Elliot L. <span style="color:#007BFF;">&#9873;</td><td></td><td></td><td>1</td></tr>
+                                                        <tr><td>7</td><td>Casey E. <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>8</td><td>Cody K. <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ========================= -->
+                                <!-- Four Ball – 2024 -->
+                                <!-- ========================= -->
+
+                                <div class="accordion-item my-4">
+                                    <h2 class="accordion-header" id="headingFourBall2024">
+                                        <button class="accordion-button collapsed d-flex justify-content-between align-items-center"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFourBall2024">
+                                            <span>Four Ball – 2024</span>
+                                            <i class="bi bi-chevron-down ms-2"></i>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseFourBall2024" class="accordion-collapse collapse"
+                                         data-bs-parent="#records2024">
+                                        <div class="accordion-body">
+                                            <div class="table-responsive">
+
+                                                <table id="fourball2024" class="table table-striped table-bordered datatable-2024">
+
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Player</th>
+                                                            <th>Wins</th>
+                                                            <th>Losses</th>
+                                                            <th>Ties</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+                                                        <tr><td>1</td><td>Alex H. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>2</td><td>Keith J. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>3</td><td>Alex D. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>4</td><td>Craig B. <span style="color:#C40000;">&#9873;</td><td>1</td><td></td><td></td></tr>
+                                                        <tr><td>5</td><td>Amer M. <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>6</td><td>Aaron D. <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>7</td><td>Alex G. <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                        <tr><td>8</td><td>Digger <span style="color:#007BFF;">&#9873;</td><td></td><td>1</td><td></td></tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+
+
+
+
+
+
+                </section>
+
+    </main>
+
+    <!-- ======= Scripts ======= -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        // IMPORTANT:
+        // Only initialize DataTables on actual <table> elements,
+        // not on accordions or DIVs.
+
+        // Example (if you have any stats tables with class "datatable-2024"):
+        // $('.datatable-2024').DataTable({
+        //   paging: true,
+        //   searching: true,
+        //   ordering: true
+        // });
+
+        // Do NOT call DataTable() on:
+        // #matchups2024, #foursomes2024-accordion, #fourball2024-accordion
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.datatable-2024').DataTable({
+                paging: false,
+                searching: true,
+                info: false,
+                order: [],
+                columnDefs: [
+                    { targets: 0, orderable: false, searchable: false }
+                ],
+                drawCallback: function (settings) {
+                    let api = this.api();
+                    api.column(0, { search: 'applied', order: 'applied' })
+                        .nodes()
+                        .each(function (cell, i) {
+                            cell.innerHTML = i + 1;
+                        });
+                }
+            });
+
+
+        });
+    </script>
+
+
+</body>
+</html>
+

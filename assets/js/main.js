@@ -52,12 +52,14 @@
    * Toggle mobile nav dropdowns (correct Axis behavior)
    */
     document.addEventListener('click', function (e) {
-        if (e.target.classList.contains('toggle-dropdown')) {
+        const toggle = e.target.closest('.toggle-dropdown');
+        if (toggle) {
             e.preventDefault();
-            e.target.classList.toggle('active');
-            e.target.nextElementSibling.classList.toggle('dropdown-active');
+            toggle.classList.toggle('active');
+            toggle.nextElementSibling.classList.toggle('dropdown-active');
         }
     });
+
 
 
   /**

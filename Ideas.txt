@@ -1,22 +1,18 @@
-Have a page where everyone can comment and chat
+Future updates:
+- Have a page where everyone can comment and chat
 
 
 
 
-On the historical page or team page 
-have the page split down the middle with the red team on the left and The Blue Team 
-on the right and at the top and fold really large have total wins and the number of wins right below it very largely
-
-
-- add teh head to head and four ball match ups if you can to 2024 page
-- maybe add peoples photos for the matchups
 
 
 
 
-left off: Add flags to Historical Records page
-- fix spacing between foursomes and fourball
+
+left off: 
+
 
 
 known issues:
 - very last drop down on 2025 records page does not have a sort filter, IDK wtf the issue is.
+- fix spacing between foursomes and fourball

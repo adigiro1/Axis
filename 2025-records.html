@@ -98,29 +98,46 @@
                 <img src="photos/digi cup_engravesd_est 2024-1.jpg">
             </a>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Rules.html">Rules</a></li>
-                    <li><a href="Champions Circle.html">Champions Circle</a></li>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
 
-                    <li class="dropdown">
-                        <a href="Historical Records.html" class="active">
-                            <span>Historical Records</span>
-                            <i class="bi bi-chevron-down dropdown-indicator"></i>
-                        </a>
-                        <ul>
-                            <li><a href="2025-records.html">2025 Records</a></li>
-                            <li><a href="2024-records.html">2024 Records</a></li>
+                    <a href="index.html" class="navbar-brand d-flex align-items-center">
+                        <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
+                        <h1 class="sitename ms-2">Digger Cup</h1>
+                    </a>
+
+                    <!-- Mobile toggle button -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapsible menu -->
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Rules.html">Rules</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Champions Circle.html">Champions Circle</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                    Historical Records
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="2025-records.html">2025 Records</a></li>
+                                    <li><a class="dropdown-item" href="2024-records.html">2024 Records</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="Teams by Year.html">Teams by Year</a></li>
+                            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
                         </ul>
-                    </li>
+                    </div>
 
-                    <li><a href="Teams by Year.html">Teams by Year</a></li>
-                    <li><a href="About.html">About</a></li>
-                </ul>
-
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </div>
             </nav>
+
 
 
 

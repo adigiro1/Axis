@@ -37,11 +37,8 @@
                 <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
             </a>
 
-            <!-- Mobile nav toggle -->
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-
-            <!-- Theme navmenu (THIS is what makes dropdowns work) -->
-            <nav id="navmenu" class="navmenu">
+            <!-- Desktop Nav -->
+            <nav id="navmenu" class="navmenu d-none d-xl-block">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="Rules.html">Rules</a></li>
@@ -61,7 +58,19 @@
                 </ul>
             </nav>
 
+            <!-- Mobile nav toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
         </div>
+    </header>
+
+    <!-- Mobile nav container (Axis theme requires this) -->
+    <nav id="navmenu-mobile" class="navmenu d-xl-none"></nav>
+    <div class="mobile-nav-overly"></div>
+
+
+
+    </div>
     </header>
 
 

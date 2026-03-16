@@ -200,13 +200,15 @@
       if (!section) return;
       let position = window.scrollY + 200;
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
-      }
-    })
-  }
+          document.querySelectorAll('#navmenu a').forEach(link => {
+              link.addEventListener('click', (e) => {
+                  if (link.classList.contains('toggle-dropdown')) return; // don't close menu on dropdown toggle
+                  if (document.querySelector('.mobile-nav-active')) {
+                      mobileNavToogle();
+                  }
+              });
+          });
+
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 

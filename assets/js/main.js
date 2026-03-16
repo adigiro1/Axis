@@ -48,17 +48,17 @@
 
   });
 
-  /**
-   * Toggle mobile nav dropdowns
+    /**
+   * Toggle mobile nav dropdowns (correct Axis behavior)
    */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
+    document.addEventListener('click', function (e) {
+        if (e.target.classList.contains('toggle-dropdown')) {
+            e.preventDefault();
+            e.target.classList.toggle('active');
+            e.target.nextElementSibling.classList.toggle('dropdown-active');
+        }
     });
-  });
+
 
   /**
    * Preloader

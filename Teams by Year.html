@@ -60,59 +60,41 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
+            <!-- Logo -->
             <a href="index.html" class="logo d-flex align-items-center">
-
-                <img src="photos/digi cup_engravesd_est 2024-1.jpg">
-                <h1 class="sitename">Digger Cup</h1>
-                <img src="photos/digi cup_engravesd_est 2024-1.jpg">
+                <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
+                <h1 class="sitename ms-2 me-2">Digger Cup</h1>
+                <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
             </a>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+            <!-- Mobile nav toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
-                    <a href="index.html" class="navbar-brand d-flex align-items-center">
-                        <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
-                        <h1 class="sitename ms-2">Digger Cup</h1>
-                    </a>
+            <!-- Theme navmenu (THIS is what makes dropdowns work) -->
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Rules.html">Rules</a></li>
+                    <li><a href="Champions Circle.html">Champions Circle</a></li>
 
-                    <!-- Mobile toggle button -->
-                    <button class="navbar-toggler" type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navmenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Collapsible menu -->
-                    <div class="collapse navbar-collapse" id="navmenu">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Rules.html">Rules</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Champions Circle.html">Champions Circle</a></li>
-
-                            <li class="nav-item dropdown">
-                                <div class="d-flex align-items-center">
-                                    <a class="nav-link" href="Historical Records.html">Historical Records</a>
-                                    <a class="nav-link dropdown-toggle ms-1" href="#" data-bs-toggle="dropdown"></a>
-                                </div>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="2025-records.html">2025 Records</a></li>
-                                    <li><a class="dropdown-item" href="2024-records.html">2024 Records</a></li>
-                                </ul>
-                            </li>
-
-
-                            <li class="nav-item"><a class="nav-link" href="Teams by Year.html">Teams by Year</a></li>
-                            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Historical Records</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="2025-records.html">2025 Records</a></li>
+                            <li><a href="2024-records.html">2024 Records</a></li>
+                            <li><a href="Historical Records.html">Historical Records</a></li>
                         </ul>
-                    </div>
+                    </li>
 
-                </div>
+                    <li><a href="Teams by Year.html">Teams by Year</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
             </nav>
-
-
 
         </div>
     </header>
+
+
 
     <main class="main">
 
@@ -267,6 +249,9 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+
+
 
 </body>
 </html>

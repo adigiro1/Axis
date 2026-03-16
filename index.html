@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Digger Cup: Champions Circle</title>
+    <title>Digger Cup: Home</title>
 
     <link href="photos/favicon.ico" rel="icon">
     <link href="photos/favicon.ico" rel="apple-touch-icon">
@@ -23,31 +23,6 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
-
-    <!-- PHOTO + CAPTION STYLING -->
-    <style>
-        .team-photo {
-            max-width: 600px;
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .photo-caption {
-            font-size: 1rem;
-            color: #6c757d;
-            margin-top: 10px;
-            font-style: italic;
-            line-height: 1.5;
-            text-align: center;
-        }
-
-        .photo-block {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
-    </style>
-
 </head>
 
 <body class="starter-page-page">
@@ -55,7 +30,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="Digger-Cup.html" class="logo d-flex align-items-center">
 
                 <img src="photos/digi cup_engravesd_est 2024-1.jpg">
                 <h1 class="sitename">Digger Cup</h1>
@@ -64,7 +39,7 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Digger-Cup.html">Home</a></li>
                     <li><a href="Rules.html">Rules</a></li>
                     <li><a href="Champions Circle.html">Champions Circle</a></li>
 
@@ -100,52 +75,95 @@
             </div>
 
             <div class="title-wrapper">
-                <h1>Champions By Year</h1>
+                <h1>The Digger Cup</h1>
             </div>
         </div>
 
-        <!-- Teams Section -->
-        <section class="container my-4">
-
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-
-                    <!-- RED TEAM TITLE -->
-                    <h2 style="color:#c40000; font-size:2.2rem; font-weight:800;" class="text-center mb-4">
-                        2025 - Red Team
-                    </h2>
-
-                    <div class="photo-block">
-                        <img src="photos/Red Team_2025.jpg" class="team-photo" alt="Red Team 2025">
-                        <div class="photo-caption">
-                            2025 <br />
-                            Left Front: Mike K., Alex H., Alex D., Tyler HUE. <br>
-                            Left Back: Craig B., Paul V., Kyle B., Keith J., Kyle H., Ben A., Dan B., Dan W.
-                        </div>
-                    </div>
-
-                    <!-- RED TEAM TITLE -->
-                    <h2 style="color:#c40000; font-size:2.2rem; font-weight:800;" class="text-center mb-4">
-                        2024 - Red Team
-                    </h2>
-
-                    <div class="photo-block">
-                        <img src="photos/Red Team_2024.jpg" class="team-photo" alt="Red Team 2024">
-                        <div class="photo-caption">
-                            2024 <br />
-                            Left Front: Dan B., Ben A., Alex D., Tyler HAR. <br>
-                            Left Back: Alex H., Keith J., Crag B., Mike K.
-                        </div>
-                    </div>
-
-
-                </div>
-                    </div>
-
-                </div>
+        <!-- COUNTDOWN TIMER -->
+        <div class="d-flex justify-content-center">
+            <div id="countdown-box" style="
+         background:#f8f9fa;
+         padding:20px;
+         border-radius:10px;
+         text-align:center;
+         width:100%;
+         max-width:350px;
+         box-shadow:0 0 10px rgba(0,0,0,0.1);
+         margin-bottom:25px;
+     ">
+                <h4 style="font-weight:700; margin-bottom:10px;">Countdown to Event</h4>
+                <div id="countdown" style="font-size:1.4rem; font-weight:600;"></div>
             </div>
+        </div>
+        </div>
 
+        <!-- Rules Section -->
+        <section class="container my-4">
+            <div class="row">
+
+                <!-- LEFT SIDE: HIGH LEVEL INFO -->
+                <div class="col-lg-8">
+                    <h3 class="mb-3" style="font-weight:700;">High Level Event Information</h3>
+
+                    <ul>
+                        <li><strong>When:</strong> May 2nd & 3rd 2026</li>
+                        <li><strong>What:</strong> 2‑day handicap Ryder Cup event in St. Louis</li>
+                        <li><strong>Day 1:</strong> Four‑Ball</li>
+                        <li><strong>Day 2:</strong> Singles</li>
+
+                        <li>
+                            <strong>Scoring:</strong>
+                            <ul>
+                                <li>1 point per match</li>
+                                <li>Ties halve the point</li>
+                                <li>Most overall points wins</li>
+                                <li><strong>Tie Breaker:</strong> Total amount of holes won</li>
+                                <li>
+                                    <strong>Example:</strong>
+                                    <ul>
+                                        <li>Team 1 combined was 6 up</li>
+                                        <li>Team 2 combined was 9 up → <strong>Team 2 wins</strong></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <strong>Amount of players</strong>
+                            <ul>
+                                <li>Want around 16, but can be adjusted. We had 24 players in 2025</li>
+                                <li>Need even amount</li>
+                                <li>You cannot back out once you have committed</li>
+                            </ul>
+                        </li>
+
+                        <li><strong>Where:</strong> Annbriar (Blue Tees)</li>
+
+                        <li>
+                            <strong>Payout:</strong>
+                            <ul>
+                                <li>$100 per winning player</li>
+                                <li>16‑player example: ($50 × 16) / 8 = $100</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <strong>You need to have a handicap to play.</strong>
+                            If you do not have one, please reach out for details on how to obtain one.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- RIGHT SIDE: PHOTO -->
+                <div class="col-lg-4 d-flex justify-content-center align-items-start">
+                    <img src="photos/digi cup_engravesd_est 2024-1.jpg"
+                         class="img-fluid rounded"
+                         alt="Digger Cup Photo">
+                </div>
+
+            </div>
         </section>
+
 
     </main>
 
@@ -159,6 +177,7 @@
                     </a>
                 </div>
             </div>
+
         </div>
 
         <div class="container copyright text-center mt-4">
@@ -188,8 +207,33 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Countdown Script -->
+    <script>
+        const eventDate = new Date(2026, 4, 2, 8, 0, 0).getTime(); // May 2, 2026 @ 8:00 AM
+
+        const timer = setInterval(function () {
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            if (distance < 0) {
+                document.getElementById("countdown").innerHTML = "Event is Live!";
+                clearInterval(timer);
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML =
+                days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        }, 1000);
+    </script>
+
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>

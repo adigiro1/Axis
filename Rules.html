@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Digger Cup: Rules</title>
 
-    <link href="photos/favicon.ico" rel="icon">
-    <link href="photos/favicon.ico" rel="apple-touch-icon">
+    <link href="photos/favicon3.ico" rel="icon">
+    <link href="photos/favicon3.ico" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,6 +20,8 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -35,8 +37,8 @@
             }
 
         .rules-section {
-            background-image: url("photos/digi cup_engravesd_est 2024-1.jpg");
-            background-size: 80%; /* <-- makes the image smaller */
+            background-image: url("photos/Digger Cup Transparent Logo.png");
+            background-size: 150%;
             background-position: center;
             background-repeat: no-repeat;
             padding: 0 40px 40px 40px;
@@ -44,12 +46,28 @@
             position: relative;
         }
 
+            /* ★ Add this block to make the background faint */
+            .rules-section::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: rgba(255, 255, 255, 0.65); /* adjust 0.50–0.85 */
+                border-radius: 10px;
+                z-index: 0;
+            }
+
+            .rules-section > * {
+                position: relative;
+                z-index: 1;
+            }
+
         .rules-overlay {
             background: rgba(255, 255, 255, 0.75);
             padding: 30px;
             border-radius: 10px;
         }
     </style>
+
 
 </head>
 
@@ -60,42 +78,43 @@
 
             <!-- Logo -->
             <a href="index.html" class="logo d-flex align-items-center">
-                <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
+                <img src="photos/Digger Cup Transparent Logo.png" style="height:40px;">
                 <h1 class="sitename ms-2 me-2">Digger Cup</h1>
-                <img src="photos/digi cup_engravesd_est 2024-1.jpg" style="height:40px;">
+                <img src="photos/Digger Cup Transparent Logo.png" style="height:40px;">
             </a>
+            <div>
 
-            <!-- Desktop Nav -->
-            <nav id="navmenu" class="navmenu">
+                <!-- Desktop Nav -->
+                <nav id="navmenu" class="navmenu">
 
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Rules.html">Rules</a></li>
-                    <li><a href="Champions Circle.html">Champions Circle</a></li>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Rules.html">Rules</a></li>
+                        <li><a href="Champions Circle.html">Champions Circle</a></li>
 
-                    <li class="dropdown">
-                        <a href="#" class="toggle-dropdown">
-                            <span>Historical Records</span>
-                            <i class="bi bi-chevron-down dropdown-indicator"></i>
-                        </a>
+                        <li class="dropdown">
+                            <a href="#" class="toggle-dropdown">
+                                <span>Historical Records</span>
+                                <i class="bi bi-chevron-down dropdown-indicator"></i>
+                            </a>
 
-                        <ul>
-                            <li><a href="2025-records.html">2025 Records</a></li>
-                            <li><a href="2024-records.html">2024 Records</a></li>
-                            <li><a href="Historical Records.html">Historical Records</a></li>
-                        </ul>
-                    </li>
+                            <ul>
+                                <li><a href="2025-records.html">2025 Records</a></li>
+                                <li><a href="2024-records.html">2024 Records</a></li>
+                                <li><a href="Historical Records.html">Historical Records</a></li>
+                            </ul>
+                        </li>
 
-                    <li><a href="Teams by Year.html">Teams by Year</a></li>
-                    <li><a href="About.html">About</a></li>
-                </ul>
-            </nav>
+                        <li><a href="Teams by Year.html">Teams by Year</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
 
-            <!-- Mobile nav toggle -->
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                <!-- Mobile nav toggle -->
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 
-        </div>
-    </header>
+            </div>
+</header>
 
     <nav id="navmenu-mobile" class="mobile-nav"></nav>
     <div class="mobile-nav-overly"></div>

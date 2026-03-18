@@ -4193,3 +4193,29 @@ section,
 :root {
     --nav-hover-color: #555555; /* medium gray */
 }
+
+/*--------------------------------------------------------------
+# Font for header
+--------------------------------------------------------------*/
+
+.sitename {
+    font-family: 'DejaVu Serif', serif;
+    font-weight: 700;
+    color: #0A2B61;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.header .logo .sitename {
+    font-family: 'DejaVu Serif', serif;
+    font-weight: 700;
+    color: #0A2B61 !important;
+}
+
+.page-title .title-wrapper h1 {
+    font-family: 'DejaVu Serif', serif;
+    font-weight: 700;
+    color: #0A2B61;
+}
+

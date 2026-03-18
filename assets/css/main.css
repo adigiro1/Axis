@@ -4238,3 +4238,14 @@ section,
         font-size: 1.4rem;
         flex-shrink: 1;
     }
+
+@media (max-width: 480px) {
+    .header {
+        padding: 8px 0;
+    }
+}
+
+.info-card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 10px;
+}

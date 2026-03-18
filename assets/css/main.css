@@ -4219,3 +4219,22 @@ section,
     color: #0A2B61;
 }
 
+/* Keep the header logo row on one line */
+.header .logo {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* optional: tighten spacing */
+}
+
+    /* Allow the images to shrink on mobile */
+    .header .logo img {
+        height: 32px;
+        flex-shrink: 1;
+    }
+
+    /* Allow the text to shrink slightly instead of wrapping */
+    .header .logo .sitename {
+        font-size: 1.4rem;
+        flex-shrink: 1;
+    }
